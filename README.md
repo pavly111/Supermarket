@@ -36,7 +36,6 @@ project/
 ├── *.wav               # Sound effects (error, accept, cash)
 ├── README.md           # Project documentation
 
-
 ⸻
 
 ⚙️ Requirements
@@ -73,11 +72,12 @@ Password: admin
 ⸻
 
 📊 Data Storage
-	•	database.txt → stores product details:
 
-product_code  name  price  discount
+•	database.txt → stores product details:
+
+	product_code  name  price  discount
 
 
-	•	users.txt → stores:
+•	users.txt → stores:
 
-username  hashed_password
+		username  hashed_password

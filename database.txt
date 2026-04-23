@@ -1,0 +1,9 @@
+ 33 marco 0 100
+ 3 oreo 10 0
+ 4 redbull 30 0
+ 5 twist 15 0
+ 6 tooth_paste 40 0
+ 7 jauguar 10 0
+ 8 Big_chips 10 0
+ 9 V7 15 0
+ 12432 ftera 6 0

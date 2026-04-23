@@ -24,8 +24,10 @@ A console-based Supermarket Management System built in C++ that allows administr
 🔊 Sound Effects
 	•	Feedback sounds for actions (success, error, cash) using .wav files
 
+⸻
 
 📂 Project Structure
+
 project/
 │
 ├── main.cpp            # Main source code
@@ -34,6 +36,9 @@ project/
 ├── *.wav               # Sound effects (error, accept, cash)
 ├── README.md           # Project documentation
 
+
+⸻
+
 ⚙️ Requirements
 	•	C++ Compiler (GCC / MinGW / Clang / MSVC)
 	•	OS:
@@ -41,24 +46,38 @@ project/
 	•	macOS (uses afplay)
 	•	Linux (requires modification for sound playback)
 
+⸻
+
 ▶️ How to Compile & Run
 
 🔹 On Windows
+
 g++ main.cpp -o app -lwinmm
 app.exe
 
 🔹 On macOS / Linux
+
 g++ main.cpp -o app
 ./app
 
+
+⸻
+
 🔑 Default Login
+
 Username: admin
 Password: admin
 
-📊 Data Storage
+⚠️ Password is stored as a hash in users.txt
 
+⸻
+
+📊 Data Storage
 	•	database.txt → stores product details:
-    product_code  name  price  discount
+
+product_code  name  price  discount
+
 
 	•	users.txt → stores:
-    username  hashed_password
+
+username  hashed_password

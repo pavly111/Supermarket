@@ -39,6 +39,7 @@ A console-based Supermarket Management System built in C++ that allows administr
 ⸻
 
 ⚙️ Requirements
+
 	•	C++ Compiler (GCC / MinGW / Clang / MSVC)
 	•	OS:
 	•	Windows (uses PlaySound)

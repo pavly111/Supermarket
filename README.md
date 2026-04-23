@@ -28,13 +28,13 @@ A console-based Supermarket Management System built in C++ that allows administr
 
 📂 Project Structure
 
-project/
-│
-├── main.cpp            # Main source code
-├── database.txt        # Product database
-├── users.txt           # User credentials (hashed)
-├── *.wav               # Sound effects (error, accept, cash)
-├── README.md           # Project documentation
+	project/
+	│
+	├── main.cpp            # Main source code
+	├── database.txt        # Product database
+	├── users.txt           # User credentials (hashed)
+	├── *.wav               # Sound effects (error, accept, cash)
+	├── README.md           # Project documentation
 
 ⸻
 
@@ -51,25 +51,24 @@ project/
 
 🔹 On Windows
 
-g++ main.cpp -o app -lwinmm
-app.exe
+	g++ main.cpp -o app -lwinmm
+	app.exe
 
 🔹 On macOS / Linux
 
-g++ main.cpp -o app
-./app
+	g++ main.cpp -o app
+	./app
 
 
-⸻
+
 
 🔑 Default Login
 
-Username: admin
-Password: admin
+	Username: admin
+	Password: admin
 
 ⚠️ Password is stored as a hash in users.txt
 
-⸻
 
 📊 Data Storage
 
@@ -80,4 +79,4 @@ Password: admin
 
 •	users.txt → stores:
 
-		username  hashed_password
+	username  hashed_password
